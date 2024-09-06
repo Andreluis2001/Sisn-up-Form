@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 40vw;
+    height: 100vh;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 65vw;
+    height: 90vh;
+    font-size: 20px;
+    padding: 20px;
+    margin: 0px;
+}
+
+fieldset {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 40%;
+    padding-left: 0px;
+    margin: 0;
+    border: 0;
+    color: rgba(0, 0, 0, 0.77);
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+form{
+    margin-right: 50px;
+}
+
+input{
+    border: 3px solid rgba(179, 179, 179, 0.288);
+    width: 200px;
+    height: 30px;
+}
+
+input:focus{
+    border-color: #305119;
+}
+
+input[id="pwd"]:invalid{
+    border-color: rgb(236, 47, 47);
+}
+
+button{
+    border-radius: 8px;
+    width: 20%;
+    height: 50px;
+    background-color: #305119;
+    font-size: 20px;
+    color: white;
+    border: 0;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color:#305119;
+}
+
+a:visited{
+    color:#888888;
+}
+
+.form-set{
+    box-shadow: 5px 5px 8px #888888;
+    border-top: 1px solid #f3f3f3;
+}
+
+.quote-text{
+    width: 75%;
+    font-weight: 575;
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.77);
+
+}
